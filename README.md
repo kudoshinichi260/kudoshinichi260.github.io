@@ -1,0 +1,1 @@
+# kudoshinichi260.github.io
