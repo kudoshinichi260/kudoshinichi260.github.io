@@ -174,13 +174,21 @@
 }
 .content__portfolio-list li img{
     float: left;
-    margin-top: 50px;
-    margin-left: 50px;
+    margin-top: 30px;
+    margin-left: 30px;
 }
 .content__portfolio-item img{
-    width: 25%;
-    height: 25%;
+    width: 30%;
+    height: 30%;
 }
+img, .header__menu>li:hover {
+    padding: 30px;
+    transform: scale(1);
+    transition: all 0.5s;
+    }
+img:hover, .header__menu li:hover {
+    transform: scale(1.1);
+    }
 #footer{
     height: 100px;
     background-image: url(../image/704721.jpg);

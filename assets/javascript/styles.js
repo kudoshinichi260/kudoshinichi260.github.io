@@ -19,12 +19,6 @@ function openHome(){
     c_portfolio.style.display = 'none';
     c_contact.style.display = 'none';
 }
-function openAbout(){
-    home.style.display = 'none';
-    about.style.display = 'flex';
-    portfolio.style.display = 'none';
-    contact.style.display = 'none';
-}
 function openPortfolio(){
     home.style.display = 'none';
     about.style.display = 'none';
@@ -34,10 +28,4 @@ function openPortfolio(){
     c_about.style.display = 'none';
     c_portfolio.style.display = 'flex';
     c_contact.style.display = 'none';
-}
-function openContact(){
-    home.style.display = 'none';
-    about.style.display = 'none';
-    portfolio.style.display = 'none';
-    contact.style.display = 'flex';
 }
