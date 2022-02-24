@@ -9,7 +9,7 @@ function openHome(){
     home.style.display = 'flex';
     portfolio.style.display = 'none';
     c_home.style.display = 'block';
-    c_portfolio.style.display = 'none';
+    c_portfolio.style.display = 'block';
 }
 function openPortfolio(){
     home.style.display = 'none';
